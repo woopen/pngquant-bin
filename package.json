@@ -1,5 +1,5 @@
 {
-	"name": "pngquant-bin",
+	"name": "pngquant-bin-cn",
 	"version": "6.0.0",
 	"description": "`pngquant` wrapper that makes it seamlessly available as a local dependency",
 	"license": "GPL-3.0+",
@@ -46,6 +46,10 @@
 		"png",
 		"pngquant"
 	],
+	"publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
 	"dependencies": {
 		"bin-build": "^3.0.0",
 		"bin-wrapper": "^4.0.1",
